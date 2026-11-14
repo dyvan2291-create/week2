@@ -1,0 +1,36 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    
+}
+
+div{
+    background-color: white;
+    align-self: center;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+button{
+    border: none;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+div:nth-child(1) button {
+    background-color: green;
+}
+
+div:nth-child(2) button {
+    background-color: dodgerblue;
+    color: black;
+}
+
+div:nth-child(3) button {
+    background-color: orange;
+}

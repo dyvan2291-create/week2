@@ -1,0 +1,10 @@
+/* TODO */
+button:hover{
+    background-color: rgb(25, 12, 213);
+}
+button{
+    background-color: red;
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 8px;
+}
